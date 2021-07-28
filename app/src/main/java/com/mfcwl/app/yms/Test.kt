@@ -7,5 +7,8 @@ class Test : BaseActivity() {
         TODO("Not yet implemented")
 
 //        Comment for Base Activity
+
+//        new coment
+
     }
 }

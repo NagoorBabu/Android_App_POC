@@ -5,7 +5,6 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "com.mfcwl.app.yms.poc"
@@ -47,4 +46,6 @@ dependencies {
 
     // Koin for Android
     implementation "org.koin:koin-android:$koin_version"
+
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
 }

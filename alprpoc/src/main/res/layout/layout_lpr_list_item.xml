@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="@color/list_item_press"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/itemScanPreview_imgPlate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_center"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/itemScanPreview_tvPlateNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="ABC123"
+        android:textColor="@color/white" />
+</LinearLayout>

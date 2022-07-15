@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mfcwl.app.yms.buttongroup.SingleSelectToggleGroup
+        android:id="@+id/group_choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tbgCheckedButton="@+id/choice_a">
+
+        <Button
+            android:id="@+id/choice_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"/>
+
+        <Button
+            android:id="@+id/choice_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+
+        <Button
+            android:id="@+id/choice_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+
+        <Button
+            android:id="@+id/choice_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"/>
+
+        <Button
+            android:id="@+id/choice_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"/>
+
+        <Button
+            android:id="@+id/choice_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"/>
+
+        <Button
+            android:id="@+id/choice_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"/>
+
+    </com.mfcwl.app.yms.buttongroup.SingleSelectToggleGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

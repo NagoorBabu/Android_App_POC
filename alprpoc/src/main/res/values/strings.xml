@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CameraXWork</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="app_logo">App Logo</string>
+</resources>

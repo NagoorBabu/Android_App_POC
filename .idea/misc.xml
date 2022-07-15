@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/app/src/main/res/drawable/bg_label_checked.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/app/src/main/res/drawable/bg_label_unchecked.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/app/src/main/res/drawable/divider.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/app/src/main/res/layout/fragment_main_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/app/src/main/res/layout/view_marker_button.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/drawable/bg_image.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/drawable/progress_hud_bg.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/drawable/shape_edittext_boder_white_background_white_25.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/drawable/spinner_progress.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout-land/activity_onboard_camera.xml" value="0.3145833333333333" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/activity_lpr_camera_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/activity_lprcamera_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/item_scan_preview.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/item_spinner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/layout_lpr_item_update_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/layout_lpr_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/progress_hud.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/cameraxwork/src/main/res/layout/screen_scan_plates_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/layout/activity_auth.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/layout/fragment_posts.xml" value="0.1545778834720571" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/layout/layout_post_list_item.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/menu/drawer_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/dagger/src/main/res/menu/main_menu.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/debugsidekick/src/main/res/drawable/bg_info.xml" value="0.14629629629629629" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/debugsidekick/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/debugsidekick/src/main/res/layout/activity_mobile_comany_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/designpatterns/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/getdevicelocation/src/main/res/layout/activity_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/drawable/bg_info.xml" value="0.1425925925925926" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/drawable/shape_edittext_boder_white_background_white_25.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/drawable/shape_view_round_background.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/layout-land/activity_onboard_camera.xml" value="0.27395833333333336" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/layout-land/screen_scan_plates_detail.xml" value="0.3145833333333333" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/layout/activity_onboard_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/layout/item_scan_preview.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mcsidekicksdk/src/main/res/layout/screen_scan_plates_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mviarchitecture/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mviarchitecture/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mviarchitecture/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmadvanced/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmbasic/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcaching/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/drawable/ic_mood_bad_black_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/activity_base.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/activity_recipe.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/activity_recipe_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/layout_category_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/layout_loading_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/layout_recipe_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithcachingjava/src/main/res/layout/layout_search_exhausted.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/drawable/ic_mood_bad_black_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/activity_base.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/activity_recipe.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/activity_recipe_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/layout_category_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/layout_loading_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/layout_recipe_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/layout/layout_search_exhausted.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/mvvmwithoutcaching/src/main/res/menu/recipe_search_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_account_circle_white_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_add_circle_outline_white_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_check_green_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_edit_black_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_filter_list_grey_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_home_white_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/ic_mood_bad_black_24dp.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/main_button_drawable.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/red_button_drawable.xml" value="0.1" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/activity_auth.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_launcher.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/edit_view_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/main_bottom_navigation_menu.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/publish_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/search_menu.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/update_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main10.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main11.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main12.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main13.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main14.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main16.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main17.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main18.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main4.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main5.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main6.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main7.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main8.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_main9.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/activity_view_post.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/layout_post_list_item.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/rxjavaandroid/src/main/res/layout/layout_post_list_item2.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/solidprinciples/src/main/res/layout/activity_main.xml" value="0.20108695652173914" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/uitesting/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/uitesting/src/main/res/layout/activity_secondary.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,19 +1,35 @@
 package com.mfcwl.powerfulandroidapps.ui.auth
 
 import android.content.Intent
+import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavController
+import androidx.navigation.NavDestination
+import androidx.navigation.findNavController
 import com.mfcwl.powerfulandroidapps.R
 import com.mfcwl.powerfulandroidapps.ui.BaseActivity
 import com.mfcwl.powerfulandroidapps.ui.ResponseType
+import com.mfcwl.powerfulandroidapps.ui.auth.state.AuthStateEvent
 import com.mfcwl.powerfulandroidapps.ui.main.MainActivity
 import com.mfcwl.powerfulandroidapps.viewmodels.ViewModelProviderFactory
+import kotlinx.android.synthetic.main.activity_auth.*
 import javax.inject.Inject
 
-class AuthActivity : BaseActivity() {
+class AuthActivity : BaseActivity(),
+    NavController.OnDestinationChangedListener {
+
+    override fun onDestinationChanged(
+        controller: NavController,
+        destination: NavDestination,
+        arguments: Bundle?
+    ) {
+        viewModel.cancelActiveJobs()
+    }
 
     @Inject
     lateinit var providerFactory: ViewModelProviderFactory
@@ -25,13 +41,15 @@ class AuthActivity : BaseActivity() {
         setContentView(R.layout.activity_auth)
 
         viewModel = ViewModelProvider(this, providerFactory).get(AuthViewModel::class.java)
+        findNavController(R.id.auth_nav_host_fragment).addOnDestinationChangedListener(this)
 
         subscribeObservers()
+        checkPreviousAuthUser()
     }
 
     private fun subscribeObservers() {
         viewModel.dataState.observe(this, Observer { dataState ->
-
+            onDataStateChange(dataState)
             dataState.data?.let { data ->
 
                 data.data?.let { event ->
@@ -44,26 +62,6 @@ class AuthActivity : BaseActivity() {
                     }
                 }
 
-                data.response?.let { event ->
-
-                    event.getContentIfNotHandled()?.let {
-
-                        when (it.responseType) {
-
-                            is ResponseType.Dialog -> {
-//                                inflate error dialog
-                            }
-
-                            is ResponseType.Toast -> {
-//                                show toaast
-                            }
-
-                            is ResponseType.None -> {
-                                Log.e(TAG, "AuthActivity, Response: ${it.message}")
-                            }
-                        }
-                    }
-                }
             }
 
         })
@@ -85,10 +83,26 @@ class AuthActivity : BaseActivity() {
         })
     }
 
+    private fun checkPreviousAuthUser() {
+        viewModel.setStateEvent(AuthStateEvent.CheckPreviousAuthEvent())
+    }
+
     fun navMainActivity() {
         Log.d(TAG, "navMainActivity: called.")
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
         finish()
+    }
+
+    override fun displayProgressBar(bool: Boolean) {
+        if (bool) {
+            progress_bar.visibility = View.VISIBLE
+        } else {
+            progress_bar.visibility = View.INVISIBLE
+        }
+    }
+
+    override fun expandAppBar() {
+        // ignore
     }
 }

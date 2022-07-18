@@ -1,6 +1,8 @@
 package com.mfcwl.powerfulandroidapps.di
 
 import android.app.Application
+import android.content.Context
+import android.content.SharedPreferences
 import androidx.room.Room
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
@@ -14,6 +16,7 @@ import com.mfcwl.powerfulandroidapps.persistance.AppDatabase.Companion.DATABASE_
 import com.mfcwl.powerfulandroidapps.persistance.AuthTokenDao
 import com.mfcwl.powerfulandroidapps.util.Constants
 import com.mfcwl.powerfulandroidapps.util.LiveDataCallAdapterFactory
+import com.mfcwl.powerfulandroidapps.util.PreferenceKeys
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -22,6 +25,21 @@ import javax.inject.Singleton
 
 @Module
 class AppModule {
+
+    @Singleton
+    @Provides
+    fun provideSharedPreferences(application: Application): SharedPreferences {
+        return application.getSharedPreferences(
+            PreferenceKeys.APP_PREFERENCES,
+            Context.MODE_PRIVATE
+        )
+    }
+
+    @Singleton
+    @Provides
+    fun provideSharedPrefsEditor(sharedPreferences: SharedPreferences): SharedPreferences.Editor {
+        return sharedPreferences.edit()
+    }
 
     @Singleton
     @Provides

@@ -1,5 +1,6 @@
 package com.mfcwl.powerfulandroidapps.di.auth
 
+import android.content.SharedPreferences
 import com.mfcwl.powerfulandroidapps.api.auth.OpenApiAuthService
 import com.mfcwl.powerfulandroidapps.persistance.AccountPropertiesDao
 import com.mfcwl.powerfulandroidapps.persistance.AuthTokenDao
@@ -26,13 +27,17 @@ class AuthModule {
         sessionManager: SessionManager,
         authTokenDao: AuthTokenDao,
         accountPropertiesDao: AccountPropertiesDao,
-        openApiAuthService: OpenApiAuthService
+        openApiAuthService: OpenApiAuthService,
+        preferences: SharedPreferences,
+        editor: SharedPreferences.Editor
     ): AuthRepository {
         return AuthRepository(
             authTokenDao,
             accountPropertiesDao,
             openApiAuthService,
-            sessionManager
+            sessionManager,
+            preferences,
+            editor
         )
     }
 

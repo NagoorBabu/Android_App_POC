@@ -79,10 +79,17 @@
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/drawable/red_button_drawable.xml" value="0.1" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/activity_auth.xml" value="0.20416666666666666" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_account.xml" value="0.16666666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_blog.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_change_password.xml" value="0.16666666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_create_blog.xml" value="0.203125" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_forgot_password.xml" value="0.20416666666666666" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_launcher.xml" value="0.20416666666666666" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_update_account.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_update_blog.xml" value="0.203125" />
+        <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/layout/fragment_view_blog.xml" value="0.5" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/edit_view_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/main_bottom_navigation_menu.xml" value="0.203125" />
         <entry key="..\:/ANDROID_MVVM_PROJECTS/My_Works/YMS_Android_App_POC/powerfulandroidapps/src/main/res/menu/publish_menu.xml" value="0.20416666666666666" />

@@ -6,6 +6,7 @@ import com.mfcwl.powerfulandroidapps.di.auth.AuthScope
 import com.mfcwl.powerfulandroidapps.di.auth.AuthViewModelModule
 import com.mfcwl.powerfulandroidapps.di.main.MainFragmentBuildersModule
 import com.mfcwl.powerfulandroidapps.di.main.MainModule
+import com.mfcwl.powerfulandroidapps.di.main.MainScope
 import com.mfcwl.powerfulandroidapps.di.main.MainViewModelModule
 import com.mfcwl.powerfulandroidapps.ui.auth.AuthActivity
 import com.mfcwl.powerfulandroidapps.ui.main.MainActivity
@@ -21,6 +22,7 @@ abstract class ActivityBuildersModule {
     )
     abstract fun contributeAuthActivity(): AuthActivity
 
+    @MainScope
     @ContributesAndroidInjector(
         modules = [MainModule::class, MainFragmentBuildersModule::class, MainViewModelModule::class]
     )

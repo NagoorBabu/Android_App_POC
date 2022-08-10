@@ -13,10 +13,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.mfcwl.powerfulandroidapps.R
 import com.mfcwl.powerfulandroidapps.ui.BaseActivity
 import com.mfcwl.powerfulandroidapps.ui.auth.AuthActivity
+import com.mfcwl.powerfulandroidapps.ui.main.account.BaseAccountFragment
 import com.mfcwl.powerfulandroidapps.ui.main.account.ChangePasswordFragment
 import com.mfcwl.powerfulandroidapps.ui.main.account.UpdateAccountFragment
+import com.mfcwl.powerfulandroidapps.ui.main.blog.BaseBlogFragment
 import com.mfcwl.powerfulandroidapps.ui.main.blog.UpdateBlogFragment
 import com.mfcwl.powerfulandroidapps.ui.main.blog.ViewBlogFragment
+import com.mfcwl.powerfulandroidapps.ui.main.create_blog.BaseCreateBlogFragment
 import com.mfcwl.powerfulandroidapps.util.BottomNavController
 import com.mfcwl.powerfulandroidapps.util.setUpNavigation
 import kotlinx.android.synthetic.main.activity_main.*
@@ -55,7 +58,29 @@ class MainActivity : BaseActivity(),
     }
 
     override fun onGraphChange() {
+        cancelActiveJobs()
         expandAppBar()
+    }
+
+    private fun cancelActiveJobs() {
+        val fragments = bottomNavController.fragmentManager
+            .findFragmentById(bottomNavController.containerId)
+            ?.childFragmentManager
+            ?.fragments
+        if (fragments != null) {
+            for (fragment in fragments) {
+                if (fragment is BaseAccountFragment) {
+                    fragment.cancelActiveJobs()
+                }
+                if (fragment is BaseBlogFragment) {
+                    fragment.cancelActiveJobs()
+                }
+                if (fragment is BaseCreateBlogFragment) {
+                    fragment.cancelActiveJobs()
+                }
+            }
+        }
+        displayProgressBar(false)
     }
 
     override fun onReselectNavItem(

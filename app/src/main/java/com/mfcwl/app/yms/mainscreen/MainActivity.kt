@@ -16,6 +16,21 @@ class MainActivity : AppCompatActivity() {
         addFragment()
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     fun addFragment() {
         /*val fragment =
             supportFragmentManager.findFragmentById(R.id.base_frame_layout) as MainActivityFragment?

@@ -16,6 +16,7 @@ import com.mfcwl.powerfulandroidapps.ui.BaseActivity
 import com.mfcwl.powerfulandroidapps.ui.ResponseType
 import com.mfcwl.powerfulandroidapps.ui.auth.state.AuthStateEvent
 import com.mfcwl.powerfulandroidapps.ui.main.MainActivity
+import com.mfcwl.powerfulandroidapps.util.SuccessHandling.Companion.RESPONSE_CHECK_PREVIOUS_AUTH_USER_DONE
 import com.mfcwl.powerfulandroidapps.viewmodels.ViewModelProviderFactory
 import kotlinx.android.synthetic.main.activity_auth.*
 import javax.inject.Inject
@@ -65,6 +66,15 @@ class AuthActivity : BaseActivity(),
                         }
                     }
                 }
+                data.response?.let{event ->
+                    event.peekContent().let{ response ->
+                        response.message?.let{ message ->
+                            if(message.equals(RESPONSE_CHECK_PREVIOUS_AUTH_USER_DONE)){
+                                onFinishCheckPreviousAuthUser()
+                            }
+                        }
+                    }
+                }
 
             }
 
@@ -96,6 +106,10 @@ class AuthActivity : BaseActivity(),
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
         finish()
+    }
+
+    private fun onFinishCheckPreviousAuthUser(){
+        fragment_container.visibility = View.VISIBLE
     }
 
     override fun displayProgressBar(bool: Boolean) {

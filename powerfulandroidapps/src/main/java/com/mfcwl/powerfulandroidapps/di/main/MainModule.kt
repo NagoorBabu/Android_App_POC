@@ -2,7 +2,10 @@ package com.mfcwl.powerfulandroidapps.di.main
 
 import com.mfcwl.powerfulandroidapps.api.main.OpenApiMainService
 import com.mfcwl.powerfulandroidapps.persistance.AccountPropertiesDao
+import com.mfcwl.powerfulandroidapps.persistance.AppDatabase
+import com.mfcwl.powerfulandroidapps.persistance.BlogPostDao
 import com.mfcwl.powerfulandroidapps.respository.main.AccountRepository
+import com.mfcwl.powerfulandroidapps.respository.main.BlogRepository
 import com.mfcwl.powerfulandroidapps.session.SessionManager
 import dagger.Module
 import dagger.Provides
@@ -31,5 +34,21 @@ class MainModule {
             accountPropertiesDao,
             sessionManager
         )
+    }
+
+    @MainScope
+    @Provides
+    fun provideBlogPostDao(db: AppDatabase): BlogPostDao {
+        return db.getBlogPostDao()
+    }
+
+    @MainScope
+    @Provides
+    fun provideBlogRepository(
+        openApiMainService: OpenApiMainService,
+        blogPostDao: BlogPostDao,
+        sessionManager: SessionManager
+    ): BlogRepository {
+        return BlogRepository(openApiMainService, blogPostDao, sessionManager)
     }
 }

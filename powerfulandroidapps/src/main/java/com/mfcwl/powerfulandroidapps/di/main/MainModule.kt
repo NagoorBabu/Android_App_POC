@@ -6,6 +6,7 @@ import com.mfcwl.powerfulandroidapps.persistance.AppDatabase
 import com.mfcwl.powerfulandroidapps.persistance.BlogPostDao
 import com.mfcwl.powerfulandroidapps.respository.main.AccountRepository
 import com.mfcwl.powerfulandroidapps.respository.main.BlogRepository
+import com.mfcwl.powerfulandroidapps.respository.main.CreateBlogRepository
 import com.mfcwl.powerfulandroidapps.session.SessionManager
 import dagger.Module
 import dagger.Provides
@@ -50,5 +51,15 @@ class MainModule {
         sessionManager: SessionManager
     ): BlogRepository {
         return BlogRepository(openApiMainService, blogPostDao, sessionManager)
+    }
+
+    @MainScope
+    @Provides
+    fun provideCreateBlogRepository(
+        openApiMainService: OpenApiMainService,
+        blogPostDao: BlogPostDao,
+        sessionManager: SessionManager
+    ): CreateBlogRepository {
+        return CreateBlogRepository(openApiMainService, blogPostDao, sessionManager)
     }
 }

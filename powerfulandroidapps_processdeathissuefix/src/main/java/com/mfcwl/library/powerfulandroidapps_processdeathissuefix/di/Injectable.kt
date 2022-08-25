@@ -1,0 +1,3 @@
+package com.mfcwl.library.powerfulandroidapps_processdeathissuefix.di
+
+interface Injectable

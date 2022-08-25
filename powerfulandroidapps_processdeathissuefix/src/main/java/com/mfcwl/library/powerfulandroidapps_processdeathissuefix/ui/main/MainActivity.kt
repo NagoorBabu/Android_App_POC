@@ -23,6 +23,7 @@ import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.ui.main.blog.B
 import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.ui.main.blog.UpdateBlogFragment
 import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.ui.main.blog.ViewBlogFragment
 import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.ui.main.create_blog.BaseCreateBlogFragment
+import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.util.BOTTOM_NAV_BACKSTACK_KEY
 import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.util.BottomNavController
 import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.util.setUpNavigation
 import com.mfcwl.library.powerfulandroidapps_processdeathissuefix.viewmodels.ViewModelProviderFactory
@@ -134,14 +135,25 @@ class MainActivity : BaseActivity(),
         setContentView(R.layout.activity_main)
 
         setupActionBar()
-        bottomNavigationView = findViewById(R.id.bottom_navigation_view)
-        bottomNavigationView.setUpNavigation(bottomNavController, this)
-        if (savedInstanceState == null) {
-            bottomNavController.onNavigationItemSelected()
-        }
+        setupBottomNavigationView(savedInstanceState)
 
         subscribeObservers()
         restoreSession(savedInstanceState)
+    }
+
+    private fun setupBottomNavigationView(savedInstanceState: Bundle?) {
+        bottomNavigationView = findViewById(R.id.bottom_navigation_view)
+        bottomNavigationView.setUpNavigation(bottomNavController, this)
+        if (savedInstanceState == null) {
+            bottomNavController.setupBottomNavigationBackStack(null)
+            bottomNavController.onNavigationItemSelected()
+        } else {
+            (savedInstanceState[BOTTOM_NAV_BACKSTACK_KEY] as IntArray?)?.let { items ->
+                val backstack = BottomNavController.BackStack()
+                backstack.addAll(items.toTypedArray())
+                bottomNavController.setupBottomNavigationBackStack(backstack)
+            }
+        }
     }
 
     private fun restoreSession(savedInstanceState: Bundle?) {
@@ -152,7 +164,14 @@ class MainActivity : BaseActivity(),
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
+        // save auth token
         outState.putParcelable(AUTH_TOKEN_BUNDLE_KEY, sessionManager.cachedToken.value)
+
+        // save backstack for bottom nav
+        outState.putIntArray(
+            BOTTOM_NAV_BACKSTACK_KEY,
+            bottomNavController.navigationBackStack.toIntArray()
+        )
     }
 
     private fun setupActionBar() {

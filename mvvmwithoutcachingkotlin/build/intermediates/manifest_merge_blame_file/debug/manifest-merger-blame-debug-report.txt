@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mfcwl.app.mvvmbasic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:5:5-67
+11-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:7:5-21:19
+14        android:allowBackup="true"
+14-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\Dell\.gradle\caches\transforms-3\f0e578c59d1d91534dac386f097d3d08\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.YMS_Android_App_POC" >
+21-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:13:9-57
+22        <activity android:name="com.mfcwl.app.mvvmbasic.ui.main.view.MainActivity" >
+22-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:14:9-20:20
+22-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:14:19-60
+23            <intent-filter>
+23-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:16:17-69
+24-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:18:17-77
+26-->E:\ANDROID_MVVM_PROJECTS\My_Works\YMS_Android_App_POC\mvvmwithoutcachingkotlin\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <provider
+30-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\0be82144304bc7a1a2ef27be46d4072e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+31            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\0be82144304bc7a1a2ef27be46d4072e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+32            android:authorities="com.mfcwl.app.mvvmbasic.lifecycle-process"
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\0be82144304bc7a1a2ef27be46d4072e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+33            android:exported="false"
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\0be82144304bc7a1a2ef27be46d4072e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+34            android:multiprocess="true" />
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\0be82144304bc7a1a2ef27be46d4072e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+35    </application>
+36
+37</manifest>

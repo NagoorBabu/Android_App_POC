@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/layout_view_marker_button.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/layout/view_marker_button.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.mfcwl.app.yms.app-pngs-11:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/layout_fragment_main_activity.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/layout/fragment_main_activity.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/drawable_bg_label_checked.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/drawable/bg_label_checked.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/color_selector_marker_text.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/color/selector_marker_text.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/layout_activity_a1.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/layout/activity_a1.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/drawable_divider.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/drawable/divider.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/drawable_bg_label_unchecked.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/drawable/bg_label_unchecked.xml"
+    },
+    {
+        "merged": "com.mfcwl.app.yms.app-merged_res-16:/layout_activity_main.xml.flat",
+        "source": "com.mfcwl.app.yms.app-main-18:/layout/activity_main.xml"
+    }
+]
